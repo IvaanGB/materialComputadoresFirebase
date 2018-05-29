@@ -5,16 +5,16 @@
     <string name="limpiar">Limpiar</string>
     <string name="marca">Marca</string>
     <string name="tipo">Tipo</string>
-    <string name="ram">RAM</string>
+    <string name="ram" translatable="false">RAM</string>
     <string name="sisOp">Sistema Operativo</string>
     <string name="informacion">Informacion</string>
     <string name="eliminar">Eliminar</string>
 
     <!--Spinner Marca-->
     <string name="selecMarca">Escoja una Marca</string>
-    <string name="marca1">HP</string>
-    <string name="marca2">Dell</string>
-    <string name="marca3">Lenovo</string>
+    <string name="marca1" translatable="false">HP</string>
+    <string name="marca2" translatable="false">Dell</string>
+    <string name="marca3" translatable="false">Lenovo</string>
     <string-array name="spnMarca">
         <item>@string/selecMarca</item>
         <item>@string/marca1</item>
@@ -48,9 +48,9 @@
 
     <!--Spinner SisOP-->
     <string name="selecOs">Escoja un Sistema Operativo</string>
-    <string name="so1">Windows</string>
-    <string name="so2">Ubuntu</string>
-    <string name="so3">MacOS</string>
+    <string name="so1" translatable="false">Windows</string>
+    <string name="so2" translatable="false">Ubuntu</string>
+    <string name="so3" translatable="false">MacOS</string>
     <string-array name="spnSisOP">
         <item>@string/selecOs</item>
         <item>@string/so1</item>

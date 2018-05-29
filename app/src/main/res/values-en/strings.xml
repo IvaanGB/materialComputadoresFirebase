@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaterialComputadores</string>
+    <string name="titulo">Create PC</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clear</string>
+    <string name="marca">Brand</string>
+    <string name="tipo">Type</string>
+    <string name="sisOp">OS</string>
+    <string name="informacion">Information</string>
+    <string name="eliminar">Delete</string>
+    <string name="selecMarca">Choose a brand</string>
+    <string name="selecColor">Choose a color</string>
+    <string name="color1">Blue</string>
+    <string name="color2">Black</string>
+    <string name="color3">White</string>
+    <string name="selecTipo">Choose a Tipe</string>
+    <string name="tipo1">Desktop</string>
+    <string name="tipo2">Laptop</string>
+    <string name="selecOs">Choose a OS</string>
+    <string name="mensaje_guardado_exitoso">"Successfully saved computer "</string>
+    <string name="pregunta_eliminacion">"Are you sure you want to delete this computer? "</string>
+    <string name="positivo">Yes</string>
+    <string name="negativo">No</string>
+    <string name="errorS">Must choose a valid option</string>
+    <string name="errorCantidad">Must type a valid value</string>
+</resources>
