@@ -64,7 +64,7 @@
     <string name="negativo">No</string>
     <string name="errorS">Debe escoger una opción válida</string>
     <string name="errorCantidad">Debe ingresar una valor válido</string>
-
+    <string name="color">Color</string>
 
 
 </resources>
