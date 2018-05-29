@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "810460340141",
+    "firebase_url": "https://materialcomputadores-7f02f.firebaseio.com",
+    "project_id": "materialcomputadores-7f02f",
+    "storage_bucket": "materialcomputadores-7f02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810460340141:android:52e99532e2aa726a",
+        "android_client_info": {
+          "package_name": "materialpc.ivaangb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810460340141-njp91toos9a6n4rmv4geaq4m6p2ohc61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "materialpc.ivaangb",
+            "certificate_hash": "fc7bd6b5a7370f274517a13e3b0970f022cdc4c4"
+          }
+        },
+        {
+          "client_id": "810460340141-cooeqvpdv5desek35tuatmhoi5ttojfr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "810460340141-cooeqvpdv5desek35tuatmhoi5ttojfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-8MCCstKVZT2EfwpTBAaDXiioUIOe-NY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810460340141-cooeqvpdv5desek35tuatmhoi5ttojfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

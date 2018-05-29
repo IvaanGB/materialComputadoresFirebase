@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MaterialComputadores</string>
+    <string name="titulo">Crear PC</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="marca">Marca</string>
+    <string name="tipo">Tipo</string>
+    <string name="ram">RAM</string>
+    <string name="sisOp">Sistema Operativo</string>
+    <string name="informacion">Informacion</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!--Spinner Marca-->
+    <string name="selecMarca">Escoja una Marca</string>
+    <string name="marca1">HP</string>
+    <string name="marca2">Dell</string>
+    <string name="marca3">Lenovo</string>
+    <string-array name="spnMarca">
+        <item>@string/selecMarca</item>
+        <item>@string/marca1</item>
+        <item>@string/marca2</item>
+        <item>@string/marca3</item>
+    </string-array>
+
+    <!--Spinner Color-->
+    <string name="selecColor">Escoja un Color</string>
+    <string name="color1">Azul</string>
+    <string name="color2">Negro</string>
+    <string name="color3">Blanco</string>
+    <string-array name="spnColor">
+        <item>@string/selecColor</item>
+        <item>@string/color1</item>
+        <item>@string/color2</item>
+        <item>@string/color3</item>
+    </string-array>
+
+
+
+    <!--Spinner Tipo-->
+    <string name="selecTipo">Escoja un Tipo</string>
+    <string name="tipo1">Escritorio</string>
+    <string name="tipo2">Portatil</string>
+    <string-array name="spnTipo">
+        <item>@string/selecTipo</item>
+        <item>@string/tipo1</item>
+        <item>@string/tipo2</item>
+    </string-array>
+
+    <!--Spinner SisOP-->
+    <string name="selecOs">Escoja un Sistema Operativo</string>
+    <string name="so1">Windows</string>
+    <string name="so2">Ubuntu</string>
+    <string name="so3">MacOS</string>
+    <string-array name="spnSisOP">
+        <item>@string/selecOs</item>
+        <item>@string/so1</item>
+        <item>@string/so2</item>
+        <item>@string/so3</item>
+    </string-array>
+
+    <string name="mensaje_guardado_exitoso">Computador guardado Exitosamente!</string>
+    <string name="pregunta_eliminacion">Está seguro que desea elminar este computador?</string>
+    <string name="positivo">Si</string>
+    <string name="negativo">No</string>
+    <string name="errorS">Debe escoger una opción válida</string>
+    <string name="errorCantidad">Debe ingresar una valor válido</string>
+
+
+
+</resources>
+
+
