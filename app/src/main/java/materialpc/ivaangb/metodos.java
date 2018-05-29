@@ -1,10 +1,13 @@
 package materialpc.ivaangb;
 
 
+import android.content.res.Resources;
 import android.graphics.Color;
 
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -12,6 +15,8 @@ import android.widget.TextView;
  */
 
 public class metodos {
+    private static Computador computador;
+
 
     public static TextView errorSpinner(Spinner spinner, String error) {
         TextView errorText = (TextView) spinner.getSelectedView();

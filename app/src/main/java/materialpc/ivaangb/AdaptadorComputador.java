@@ -36,15 +36,12 @@ public class AdaptadorComputador extends RecyclerView.Adapter<AdaptadorComputado
     public void onBindViewHolder(ComputadorViewHolder holder, int position) {
         final Computador p = computador.get(position);
 
-
-
-
         holder.foto.setImageResource(p.getFoto());
         holder.marca.setText(""+p.getMarca());
-        //holder.tipo.setText(p.getTipo());*/
+        holder.tipo.setText(""+p.getTipo());
         holder.ram.setText(p.getRam());
-       /* holder.so.setText(p.getSo());
-        holder.color.setText(p.getColor());*/
+        holder.so.setText(""+p.getSo());
+        holder.color.setText(""+p.getColor());
 
         holder.v.setOnClickListener(new View.OnClickListener() {
             @Override
