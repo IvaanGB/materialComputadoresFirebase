@@ -79,11 +79,11 @@ public class Principal extends AppCompatActivity implements AdaptadorComputador.
         Intent i = new Intent(Principal.this,DetalleComputadores.class);
         Bundle b = new Bundle();
         b.putString("id",p.getId());
-        b.putInt("marca", p.getMarca());
-        b.putInt("tipo",p.getTipo());
+        b.putString("marca", p.getMarca());
+        b.putString("tipo",p.getTipo());
         b.putString("ram",p.getRam());
-        b.putInt("so",p.getSo());
-        b.putInt("color",p.getColor());
+        b.putString("so",p.getSo());
+        b.putString("color",p.getColor());
         b.putInt("foto",p.getFoto());
 
         i.putExtra("datos",b);

@@ -8,11 +8,11 @@ public class Computador {
 
     private String id;
     private int foto;
-    private int marca;
-    private int tipo;
+    private String marca;
+    private String tipo;
     private String ram;
-    private int so;
-    private int color;
+    private String so;
+    private String color;
 
     public Computador() {
     }
@@ -21,7 +21,7 @@ public class Computador {
         this.id = id;
     }
 
-    public Computador(String id, int foto, int marca, int tipo, String ram, int so, int color) {
+    public Computador(String id, int foto, String marca, String tipo, String ram, String so, String color) {
         this.id = id;
         this.foto = foto;
         this.marca = marca;
@@ -47,19 +47,19 @@ public class Computador {
         this.foto = foto;
     }
 
-    public int getMarca() {
+    public String getMarca() {
         return marca;
     }
 
-    public void setMarca(int marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public int getTipo() {
+    public String getTipo() {
         return tipo;
     }
 
-    public void setTipo(int tipo) {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
@@ -71,19 +71,19 @@ public class Computador {
         this.ram = ram;
     }
 
-    public int getSo() {
+    public String getSo() {
         return so;
     }
 
-    public void setSo(int so) {
+    public void setSo(String so) {
         this.so = so;
     }
 
-    public int getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(int color) {
+    public void setColor(String color) {
         this.color = color;
     }
 

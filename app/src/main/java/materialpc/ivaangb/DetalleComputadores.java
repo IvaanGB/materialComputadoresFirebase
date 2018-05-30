@@ -18,9 +18,9 @@ public class DetalleComputadores extends AppCompatActivity {
     private TextView txtRAMDetalle;
     private TextView txtSODetalle;
     private TextView txtColorDetalle;
-    private String[] selMarca, selTipo, selSO, selColor;
     private String ram;
-    private int foto, marca, tipo, so, color;
+    private int foto;
+    private String marca, tipo, so, color;
     private Intent i;
     private Bundle bundle;
 
@@ -37,28 +37,23 @@ public class DetalleComputadores extends AppCompatActivity {
         txtColorDetalle = findViewById(R.id.txtColorDetalle);
         fot = findViewById(R.id.foto);
 
-        selMarca = getResources().getStringArray(R.array.spnMarca);
-        selTipo = getResources().getStringArray(R.array.spnTipo);
-        selSO = getResources().getStringArray(R.array.spnSisOP);
-        selColor = getResources().getStringArray(R.array.spnColor);
-
         i = getIntent();
 
         bundle = i.getBundleExtra("datos");
         id = bundle.getString("id");
         foto = bundle.getInt("foto");
-        marca = bundle.getInt("marca");
-        tipo = bundle.getInt("tipo");
+        marca = bundle.getString("marca");
+        tipo = bundle.getString("tipo");
         ram = bundle.getString("ram");
-        so = bundle.getInt("so");
-        color = bundle.getInt("color");
+        so = bundle.getString("so");
+        color = bundle.getString("color");
 
         fot.setImageResource(foto);
-        txtMarcaDetalle.setText(selMarca[marca]);
-        txtTipoDetalle.setText(selTipo[tipo]);
+        txtMarcaDetalle.setText(marca);
+        txtTipoDetalle.setText(tipo);
         txtRAMDetalle.setText(ram);
-        txtSODetalle.setText(selSO[so]);
-        txtColorDetalle.setText(selColor[color]);
+        txtSODetalle.setText(so);
+        txtColorDetalle.setText(color);
     }
 
     public void eliminar(View v){

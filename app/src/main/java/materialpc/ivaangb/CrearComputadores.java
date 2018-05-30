@@ -88,19 +88,19 @@ public class CrearComputadores extends AppCompatActivity {
     public void guardar(View v){
         String id;
         int foto;
-        int marca;
-        int tipo;
+        String marca;
+        String tipo;
         String ram;
-        int sisOp;
-        int color;
+        String sisOp;
+        String color;
 
         id = Datos.getId();
         foto = Datos.fotoAleatoria(fotos);
-        marca = cmbMarca.getSelectedItemPosition();
-        tipo = cmbTipo.getSelectedItemPosition();
+        marca = cmbMarca.getSelectedItem().toString();
+        tipo = cmbTipo.getSelectedItem().toString();
         ram = txtRam.getText().toString();
-        sisOp = cmbSO.getSelectedItemPosition();
-        color = cmbColor.getSelectedItemPosition();
+        sisOp = cmbSO.getSelectedItem().toString();
+        color = cmbColor.getSelectedItem().toString();
 
         if (validar()){
             Computador pc = new Computador(id, foto, marca, tipo, ram, sisOp, color);
